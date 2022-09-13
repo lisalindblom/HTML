@@ -1,0 +1,25 @@
+aside {
+    background-color: brown;
+
+}
+
+main {
+    background-color: green;
+
+}
+
+section {
+    background-color: goldenrod;
+
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+
+}
+
+@media screen and(min-width: 786px) {
+    
+}
+    

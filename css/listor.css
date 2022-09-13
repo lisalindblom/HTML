@@ -1,0 +1,41 @@
+header {
+    background-color: cadetblue;
+}
+
+.content {
+    border: 2px dotted black; 
+    color: brown;
+    padding: 10px;
+}
+
+div {
+    border: 3px solid brown;
+    
+}
+
+.left {
+   float: left;
+}
+
+tr:nth-child(even) {
+    background-color: rgb(28, 177, 127);
+}
+
+tr:nth-child(odd) {
+    background-color: green;
+}
+
+th {
+    background-color: goldenrod;
+}
+
+ul {
+    list-style-type: circle;
+    background-color: brown;
+    color: azure;
+    width: 10%;
+}
+
+footer {
+    
+}

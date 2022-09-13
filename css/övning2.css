@@ -1,0 +1,42 @@
+.lorem {
+    border: 2px solid brown;
+    height: 70px;
+    width: 200px;
+    padding: 5px;
+}
+
+.ipsum {
+    border: 2px solid rgb(20, 180, 26);
+    height: 70px;
+    width: 200px;
+    margin: 10px;
+
+}
+
+h1 {
+    border: 2px solid black;
+    height: 30px;
+}
+
+div {
+    border: 2px solid green;
+    height: 300px;
+    width: 300px;
+    display: inline-block;
+    margin: 0px;
+
+}
+
+.ett {
+    border: 2px solid goldenrod;
+    height: 300px;
+    width: 300px;
+    position: relative;
+}
+
+.tva {
+    border: 2px solid green;
+    height: 100px;
+    width: 100px;
+    position: absolute;
+}
