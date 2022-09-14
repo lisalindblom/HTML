@@ -19,7 +19,7 @@ article {
     align-items: center;
 }
 
-.circel {
+.ring {
     background-color: purple;
     height: 70px;
     width: 70px;
@@ -30,7 +30,7 @@ article {
     display: flex;
     flex-direction: column;
 }
-/*
+
 @media screen and (min-width: 768px) {
 
     .container {
