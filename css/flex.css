@@ -1,0 +1,39 @@
+
+aside {
+    background-color: brown;
+}
+
+main {
+    background-color: goldenrod;
+
+}
+
+section {
+    background-color: green;
+}
+
+article {
+    border: 2px solid darkcyan;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+@media screen and (min-width: 768px) {
+
+    .container {
+        display: flex;
+        flex-direction: row;
+    }
+
+
+    
+    
+    
+}
+
