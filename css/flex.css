@@ -19,6 +19,13 @@ article {
     align-items: center;
 }
 
+.circel {
+    background-color: purple;
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+}
+
 .container {
     display: flex;
     flex-direction: column;
