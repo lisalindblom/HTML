@@ -1,59 +1,68 @@
-
 aside {
-    background-color: brown;
-    width: 200px;
+  background-color: brown;
 }
 
 main {
-    background-color: goldenrod;
-    width: 400px;
-
+  background-color: goldenrod;
 }
 
-section {
-    background-color: green;
-    width: 200px;
-    justify-content: center;
-    align-content: center;
+.bild {
+  background-color: green;
+
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  height: 20%;
 }
 
 img {
-    display: flex;
-    width: 150px;
+  width: 50%;
 }
 
 article {
-    border: 2px solid darkcyan;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 200px;
-    width: 200px;
+  border: 2px solid darkcyan;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+  width: 200px;
 }
 
 .ring {
-    background-color: purple;
-    height: 70px;
-    width: 70px;
-    border-radius: 50%;
+  background-color: purple;
+  height: 70px;
+  width: 70px;
+  border-radius: 50%;
 }
 
 .container {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-content: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-content: flex-start;
 }
 
 @media screen and (min-width: 768px) {
+  aside {
+    background-color: brown;
+    width: 20%;
+  }
 
-    .container {
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        align-items: center;
-    }
-    
-    
+  main {
+    background-color: goldenrod;
+    width: 60%;
+  }
+  .container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: stretch;
+  }
+
+  .bild {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+  }
 }
-
