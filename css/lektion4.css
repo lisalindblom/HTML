@@ -1,0 +1,48 @@
+body {
+  margin: 0;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+
+.container > * {
+  height: 100vh;
+}
+
+.container aside {
+  width: 100%;
+  background-color: forestgreen;
+}
+
+.container main {
+  width: 100%;
+  background-color: brown;
+}
+
+.container section {
+  width: 100%;
+  background-color: goldenrod;
+}
+
+@media screen and (min-width: 768px) {
+  .container {
+    flex-direction: row;
+  }
+  .container aside {
+    width: 20%;
+    /*background-color: brown;'*/
+  }
+
+  .container main {
+    width: 60%;
+    /*background-color: goldenrod;*/
+  }
+
+  .container section {
+    width: 20%;
+    /*background-color: forestgreen;*/
+  }
+}
