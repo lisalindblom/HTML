@@ -1,0 +1,63 @@
+nav {
+  padding: 4px;
+}
+
+ul {
+  padding: 0;
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  justify-content: flex-end;
+}
+
+ul li {
+  cursor: pointer;
+  border-bottom: 1 px solid rgba(0, 0, 0, 0);
+}
+
+.blue {
+  background-color: green;
+  width: 200px;
+  height: 200px;
+  transition: background-color 1s linear;
+}
+
+.blue:hover {
+  background-color: goldenrod;
+}
+
+.hidden {
+  background-color: green;
+  width: 200px;
+  height: 200px;
+  transition: opacity 1500ms;
+}
+
+.hidden:hover {
+  opacity: 0;
+}
+
+@keyframes goaround {
+  0% {
+    transform: translate(0, 0);
+  }
+  25% {
+    transform: translate(200px, 0);
+  }
+  50% {
+    transform: translate(200px, 200px);
+  }
+  75% {
+    transform: translate(0, 200px);
+  }
+  100% {
+    transform: translate(0, 0);
+  }
+}
+.moving {
+  background-color: green;
+  width: 100px;
+  height: 100px;
+  opacity: 0.5;
+  animation: goaround 4s infinite;
+}
