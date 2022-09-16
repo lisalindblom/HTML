@@ -61,3 +61,45 @@ ul li {
   opacity: 0.5;
   animation: goaround 4s infinite;
 }
+
+.heart {
+  position: relative;
+  width: 100px;
+  height: 100px;
+  transform: rotate(45deg);
+}
+.heart::before {
+  position: absolute;
+  content: ;
+  width: 100px;
+  height: 100px;
+  left: -50px;
+  border-radius: 50%;
+}
+
+.heart::after {
+  position: absolute;
+  content: ;
+  width: 100px;
+  height: 100px;
+  top: -50px;
+  border-radius: 50%;
+}
+
+@keyframes .heart {
+  0% {
+    transform: rotate(45deg);
+  }
+  25% {
+    transform: rotate(45deg);
+  }
+  50% {
+    transform: rotate(45deg);
+  }
+  75% {
+    transform: rotate(45deg);
+  }
+  100% {
+    transform: rotate(45deg);
+  }
+}
