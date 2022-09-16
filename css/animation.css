@@ -67,6 +67,7 @@ ul li {
   width: 100px;
   height: 100px;
   transform: rotate(45deg);
+  background-color: darkred;
 }
 .heart::before {
   position: absolute;
