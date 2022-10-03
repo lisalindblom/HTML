@@ -1,0 +1,27 @@
+@use "variables";
+
+
+
+
+@mixin tbody {
+
+    tr:nth-child(odd) {
+        background-color: variables.$primary;
+        color: rgb(255, 255, 250);
+    }
+    tr:nth-child(even) {
+        color: darkcyan;
+        
+    }
+    
+    tr:hover {
+        background-color: darkgoldenrod;
+    }
+}
+
+@mixin button {
+    
+}
+
+
+

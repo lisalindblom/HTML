@@ -1,0 +1,19 @@
+body {
+  display: flex;
+  background-color: grey;
+  align-items: center;
+}
+
+.container {
+  flex-direction: row;
+  /*transform: rotate(140deg);*/
+  background-color: beige;
+  width: 400px;
+  height: 200px;
+}
+
+.container > div {
+  height: 60px;
+  width: 60px;
+  border: 2px solid green;
+}

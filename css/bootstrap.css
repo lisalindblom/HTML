@@ -1,0 +1,11 @@
+main {
+  background-color: darkgreen;
+}
+
+section > article {
+  background-color: goldenrod;
+  height: 50px;
+}
+.row {
+  height: 50vh;
+}

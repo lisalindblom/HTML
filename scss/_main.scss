@@ -1,0 +1,13 @@
+
+@use "mixins";
+div {
+    width: 50%;
+    height: 50vh;
+    border:2px solid darkgreen ;
+}
+
+
+tbody {
+    @include mixins.tbody
+}
+
